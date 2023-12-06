@@ -1,0 +1,40 @@
+{
+  "name": "@fightingdreamer/iter-flatten",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/iter-flatten.cjs",
+  "module": "./dist/iter-flatten.js",
+  "typings": "./dist/iter-flatten.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/iter-flatten.js",
+      "require": "./dist/iter-flatten.cjs"
+    }
+  },
+  "version": "0.1.0",
+  "description": "Missing flatten over iterable.",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "keywords": [
+    "iter"
+  ],
+  "author": {
+    "name": "Patryk Stępień"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fightingdreamer/npm-iter-flatten",
+  "devDependencies": {
+    "vite": "^5.0.5",
+    "vite-plugin-dts": "^3.6.4",
+    "vitest": "^0.34.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
