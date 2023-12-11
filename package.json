@@ -13,7 +13,7 @@
       "require": "./dist/iter-flatten.cjs"
     }
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Missing flatten over iterable.",
   "scripts": {
     "test": "vitest --run",
